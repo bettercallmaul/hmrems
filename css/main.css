@@ -378,6 +378,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .services .services_list .serv_icon{
 	margin-bottom: 60px;
+	width: 300px;
+	height: 300px;
 }
 
 .services .services_list p{
