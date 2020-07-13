@@ -143,6 +143,10 @@
 	font-family: "lato-bold", Helvetica, Arial, sans-serif;
 	color: blue;
 }
+.top-bar .toggle-topbar.menu-icon a span img{
+	width: 28px;
+	height: 28px;
+}
 
 
 .top-bar,
