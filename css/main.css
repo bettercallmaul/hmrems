@@ -165,6 +165,7 @@
 .top-bar .name h4,
 .top-bar .name span,
 .top-bar .name p{
+	font-family: Helvetica, Arial, sans-serif;;
 	line-height: normal;
 	height: auto;
 	font-size: 1.75rem;
@@ -219,10 +220,10 @@
 }
 
 .hero .caption h2.sub_cap{
-	font-family: "lato-light", Helvetica, Arial, sans-serif;
-	font-weight: lighter;
+	font-family: "Khula-ExtraBold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 60px;
-	color: white;
+	color: rgb(33, 71, 173);
 	text-transform: uppercase;
 	line-height: 70px;
 	margin-bottom: 50px;
@@ -347,9 +348,24 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 /*    Services    */
 
 .services{
-	padding: 75px 0;
+	padding: 20px 0;
 }
 
+.services .sub_cap{
+	font-family: "Khula-ExtraBold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(33, 71, 173);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 50px;
+	/* margin-bottom: 50px; */
+	text-shadow:
+		-1px -1px 0 yellow,
+		1px -1px 0 yellow,
+		-1px 1px 0 yellow,
+		1px 1px 0 yellow;
+}
 .services .mean_title,
 .services .sub_title{
 	text-align: center;
